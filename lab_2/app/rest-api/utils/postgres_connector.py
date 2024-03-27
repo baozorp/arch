@@ -8,7 +8,7 @@ class PostgresConnector:
         self.db_name = db_name
         self.user = 'baozorp'
         self.password = 'baozorp'
-        self.host = 'localhost'
+        self.host = 'postgres'
         self.port = '5432'
         while True:
             try:

@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 
 COPY . /messenger_app
 
-ENTRYPOINT ["bash", "-c", "cd ./rest-api && uvicorn main:app --port 5005 --host 0.0.0.0"]
+ENTRYPOINT ["bash", "-c", "cd ./rest-api && uvicorn main:app --port 8080 --host 0.0.0.0"]
