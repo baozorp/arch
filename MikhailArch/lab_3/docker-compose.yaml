@@ -18,31 +18,18 @@ services:
     networks:
       - arch-network
 
-  # conferences:
-  #   container_name: conferences
-  #   build:
-  #     context: ./conferences_api/
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - 8080:8080
-  #   networks:
-  #     - arch-network
-  #   depends_on:
-  #     mongo:
-  #       condition: service_healthy
-
-  # articles:
-  #   container_name: articles
-  #   build:
-  #     context: ./articles_api/
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - 8081:8080
-  #   networks:
-  #     - arch-network
-  #   depends_on:
-  #     mongo:
-  #       condition: service_healthy
+  mongo_api:
+    container_name: mongo_api
+    build:
+      context: ./mongo_api/
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    networks:
+      - arch-network
+    depends_on:
+      mongo:
+        condition: service_healthy
 
   init:
     container_name: init

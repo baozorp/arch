@@ -49,7 +49,6 @@ class Initializer():
             while len(members) < random.randint(2, 50):
                 members.add(random.randint(1, 10000))
             members = list(members)
-        print(chat['is_PtP'], members)
         chat['admins'] = admins
         chat['members'] = members
         chat['chat_name'] = 'Chat_' + fake.company()
@@ -68,6 +67,8 @@ class Initializer():
         return [Initializer.generate_chat() for _ in range(num_chats)]
 
 
-num_chats = 100
-chats = Initializer.generate_chats(num_chats)
-chats_collection.insert_many(chats)
+if not chats_collection.find_one():
+    num_chats = 100
+    chats = Initializer.generate_chats(num_chats)
+    chats_collection.insert_many(chats)
+print(chats_collection.find_one())
