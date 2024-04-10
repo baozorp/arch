@@ -1,0 +1,61 @@
+version: '3.1'
+
+services:
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - 27017:27017
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - arch-network
+
+  # conferences:
+  #   container_name: conferences
+  #   build:
+  #     context: ./conferences_api/
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 8080:8080
+  #   networks:
+  #     - arch-network
+  #   depends_on:
+  #     mongo:
+  #       condition: service_healthy
+
+  # articles:
+  #   container_name: articles
+  #   build:
+  #     context: ./articles_api/
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 8081:8080
+  #   networks:
+  #     - arch-network
+  #   depends_on:
+  #     mongo:
+  #       condition: service_healthy
+
+  init:
+    container_name: init
+    build:
+      context: ./init
+      dockerfile: Dockerfile
+    networks:
+      - arch-network
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+networks:
+  arch-network:
+    driver: "bridge"
+    external: false
