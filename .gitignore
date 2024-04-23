@@ -4,4 +4,5 @@ data
 **/src.code-workspace
 **/.DS_Store
 **/.venv
+**/venv
 **/__pycache__

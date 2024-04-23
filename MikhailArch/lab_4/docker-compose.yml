@@ -1,0 +1,82 @@
+version: '3.7'
+services:
+
+  users_api:
+    container_name: users_api
+    build:
+      context: ./users_api
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    networks:
+      - arch-network
+    depends_on:
+      init:
+        condition: service_completed_successfully
+
+  init:
+    container_name: init
+    build:
+      context: ./init
+      dockerfile: Dockerfile
+    networks:
+      - arch-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongo:
+        condition: service_healthy
+
+  messenger_api:
+    container_name: messenger_api
+    build:
+      context: ./messenger_api/
+      dockerfile: Dockerfile
+    ports:
+      - 8081:8080
+    networks:
+      - arch-network
+    depends_on:
+      init:
+        condition: service_completed_successfully
+
+  postgres:
+    container_name: postgres
+    image: postgres:15
+    environment:
+      - POSTGRES_USER=baozorp
+      - POSTGRES_PASSWORD=baozorp
+      - PGDATA=/data/postgres
+      - POSTGRES_DB=messenger_db
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -d postgres" ]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+    networks:
+      - arch-network
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - 27017:27017
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 5s
+      timeout: 5s
+      retries: 3
+    networks:
+      - arch-network
+
+networks:
+  arch-network:
+    driver: "bridge"
+    external: false
