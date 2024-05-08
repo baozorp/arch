@@ -1,0 +1,1169 @@
+{
+  "id" : 1,
+  "name" : "Система чатов",
+  "description" : "Система для обмена сообщениями между пользователями и в групповых чатах",
+  "lastModifiedDate" : "2024-03-24T21:37:03Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKbmFtZSAi0KHQuNGB0YLQtdC80LAg0YfQsNGC0L7QsiIKICAgIGRlc2NyaXB0aW9uICLQodC40YHRgtC10LzQsCDQtNC70Y8g0L7QsdC80LXQvdCwINGB0L7QvtCx0YnQtdC90LjRj9C80Lgg0LzQtdC20LTRgyDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y/QvNC4INC4INCyINCz0YDRg9C/0L/QvtCy0YvRhSDRh9Cw0YLQsNGFIgoKICAgICFpZGVudGlmaWVycyBoaWVyYXJjaGljYWwKCiAgICAgICBtb2RlbCB7CiAgICAgICAgcHJvcGVydGllcyB7IAogICAgICAgICAgICBzdHJ1Y3R1cml6ci5ncm91cFNlcGFyYXRvciAiLyIKICAgICAgICB9CgogICAgICAgIHVzZXIgPSBwZXJzb24gItCf0L7Qu9GM0LfQvtCy0LDRgtC10LvRjCIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAi0J/QvtC70YzQt9C+0LLQsNGC0LXQu9GMINGB0LjRgdGC0LXQvNGLINGH0LDRgtC+0LIiCiAgICAgICAgfQoKICAgICAgICBjaGF0X3N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICLQodC40YHRgtC10LzQsCDRh9Cw0YLQvtCyIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQodC40YHRgtC10LzQsCDQtNC70Y8g0L7QsdC80LXQvdCwINGB0L7QvtCx0YnQtdC90LjRj9C80Lgg0Lgg0YPQv9GA0LDQstC70LXQvdC40Y8g0YfQsNGC0LDQvNC4IgoKICAgICAgICAgICAgdXNlcl9zZXJ2aWNlID0gY29udGFpbmVyICJVc2VyIFNlcnZpY2UiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQodC10YDQstC40YEg0LTQu9GPINCw0LLRgtC+0YDQuNC30LDRhtC40Lgg0Lgg0YPQv9GA0LDQstC70LXQvdC40Y8g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GP0LzQuCIKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlJFU1QgQVBJIgogICAgICAgICAgICB9CgogICAgICAgICAgICBjaGF0X3NlcnZpY2UgPSBjb250YWluZXIgIkNoYXQgU2VydmljZSIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gItCh0LXRgNCy0LjRgSDQtNC70Y8g0YDQsNCx0L7RgtGLINGBIFB0UCDQuCDQs9GA0YPQv9C/0L7QstGL0LzQuCDRh9Cw0YLQsNC80LgiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJSRVNUIEFQSSIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZ3JvdXAgItCh0LvQvtC5INC00LDQvdC90YvRhSIgewoKICAgICAgICAgICAgICAgIHJlZGlzX2NhY2hlID0gY29udGFpbmVyICJSZWRpcyBDYWNoZSIgewogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQmtC10YggUmVkaXMg0LTQu9GPINGD0YHQutC+0YDQtdC90LjRjyDQv9C+0LjRgdC60LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiCiAgICAgICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiUmVkaXMiCiAgICAgICAgICAgICAgICAgICAgdGFncyAiY2FjaGUiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBwb3N0Z3Jlc19kYXRhYmFzZSA9IGNvbnRhaW5lciAiUG9zdGdyZVNRTCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQkdCw0LfQsCDQtNCw0L3QvdGL0YUgUG9zdGdyZVNRTCDRgSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y/QvNC4INC4INGH0LDRgtCw0LzQuCIKICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJQb3N0Z3JlU1FMIgogICAgICAgICAgICAgICAgICAgIHRhZ3MgImRhdGFiYXNlIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG1vbmdvX2RhdGFiYXNlID0gY29udGFpbmVyICJNb25nb0RCIERhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gItCR0LDQt9CwINC00LDQvdC90YvRhSBNb25nb0RCINGBINC40YHRgtC+0YDQuNC10Lkg0YHQvtC+0LHRidC10L3QuNC5IgogICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIk1vbmdvREIiCiAgICAgICAgICAgICAgICAgICAgdGFncyAiZGF0YWJhc2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHVzZXIgLT4gdXNlcl9zZXJ2aWNlICLQoNC10LPQuNGB0YLRgNCw0YbQuNGPINC4INCw0LLRgtC+0YDQuNC30LDRhtC40Y8iCiAgICAgICAgICAgIHVzZXIgLT4gY2hhdF9zZXJ2aWNlICLQodC+0LfQtNCw0L3QuNC1INC4INGD0L/RgNCw0LLQu9C10L3QuNC1INGH0LDRgtCw0LzQuCwg0L7RgtC/0YDQsNCy0LrQsCDRgdC+0L7QsdGJ0LXQvdC40LkiCgogICAgICAgICAgICBjaGF0X3NlcnZpY2UgLT4gcmVkaXNfY2FjaGUgItCf0L7Qu9GD0YfQtdC90LjQtSDQv9C+0YHQu9C10LTQvdC40YUg0YHQvtC+0LHRidC10L3QuNC5IgogICAgICAgICAgICB1c2VyX3NlcnZpY2UgLT4gcG9zdGdyZXNfZGF0YWJhc2UgIkNSVUQg0L7Qv9C10YDQsNGG0LjQuCDRgSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y/QvNC4LCDQv9C+0LjRgdC6IgogICAgICAgICAgICB1c2VyX3NlcnZpY2UgLT4gY2hhdF9zZXJ2aWNlICLQn9C10YDQtdC00LDRh9CwINC00LDQvdC90YvRhSDQviDQv9C+0LvRjNC30L7QstCw0YLQtdC70LUg0L/QvtGB0LvQtSDQsNCy0YLQvtGA0LjQt9Cw0YbQuNC4IgoKICAgICAgICAgICAgY2hhdF9zZXJ2aWNlIC0+IHBvc3RncmVzX2RhdGFiYXNlICJDUlVEINC+0L/QtdGA0LDRhtC40Lgg0YEg0YfQsNGC0LDQvNC4IgogICAgICAgICAgICBjaGF0X3NlcnZpY2UgLT4gbW9uZ29fZGF0YWJhc2UgIkNSVUQg0LjRgdGC0L7RgNC40Lgg0YHQvtC+0LHRidC10L3QuNC5IgogICAgICAgICAgICBjaGF0X3NlcnZpY2UgLT4gdXNlcl9zZXJ2aWNlICLQn9GA0L7QstC10YDQutCwINCw0LLRgtC+0YDQuNC30LDRhtC40Lgg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINC/0YDQuCDQtNC+0LHQsNCy0LvQtdC90LjQuCDQsiDRh9Cw0YIg0Lgg0L7RgtC/0YDQsNCy0LrQtSDRgdC+0L7QsdGJ0LXQvdC40LkiCiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50RW52aXJvbm1lbnQgIlByb2R1Y3Rpb24iIHsKICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQ2hhdCBTZXJ2ZXIiIHsKICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2UgY2hhdF9zeXN0ZW0udXNlcl9zZXJ2aWNlCiAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZQogICAgICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgICAgICJjcHUiICI0IgogICAgICAgICAgICAgICAgInJhbSIgIjI1NkdiIgogICAgICAgICAgICAgICAgImhkZCIgIjRUYiIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgZGVwbG95bWVudE5vZGUgImRhdGFiYXNlcyIgewoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRhdGFiYXNlIFNlcnZlciAxIiB7CiAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBjaGF0X3N5c3RlbS5wb3N0Z3Jlc19kYXRhYmFzZQogICAgICAgICAgICAgICAgcHJvcGVydGllcyB7CiAgICAgICAgICAgICAgICAgICAgImNwdSIgIjQiCiAgICAgICAgICAgICAgICAgICAgInJhbSIgIjI1NkdiIgogICAgICAgICAgICAgICAgICAgICJoZGQiICI0VGIiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJDYWNoZSBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIGNoYXRfc3lzdGVtLnJlZGlzX2NhY2hlCiAgICAgICAgICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgICAgICAgICAiY3B1IiAiMiIKICAgICAgICAgICAgICAgICAgICAicmFtIiAiMTI4R2IiCiAgICAgICAgICAgICAgICAgICAgImhkZCIgIjJUYiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRvY3VtZW50REIgU2VydmVyIiB7CiAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBjaGF0X3N5c3RlbS5tb25nb19kYXRhYmFzZQogICAgICAgICAgICAgICAgaW5zdGFuY2VzIDQKICAgICAgICAgICAgICAgIHByb3BlcnRpZXMgewogICAgICAgICAgICAgICAgICAgICJjcHUiICI0IgogICAgICAgICAgICAgICAgICAgICJyYW0iICIyNTZHYiIKICAgICAgICAgICAgICAgICAgICAiaGRkIiAiNFRiIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgoKICAgIHZpZXdzIHsKICAgICAgICB0aGVtZXMgZGVmYXVsdAoKICAgICAgICBwcm9wZXJ0aWVzIHsgCiAgICAgICAgICAgIHN0cnVjdHVyaXpyLnRvb2x0aXBzIHRydWUKICAgICAgICB9CgoKICAgICAgICAhc2NyaXB0IGdyb292eSB7CiAgICAgICAgICAgIHdvcmtzcGFjZS52aWV3cy5jcmVhdGVEZWZhdWx0Vmlld3MoKQogICAgICAgICAgICB3b3Jrc3BhY2Uudmlld3Mudmlld3MuZmluZEFsbCB7IGl0IGluc3RhbmNlb2YgY29tLnN0cnVjdHVyaXpyLnZpZXcuTW9kZWxWaWV3IH0uZWFjaCB7IGl0LmVuYWJsZUF1dG9tYXRpY0xheW91dCgpIH0KICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgY2hhdF9zeXN0ZW0gIlVDMDEiICLQodC+0LfQtNCw0L3QuNC1INC90L7QstC+0LPQviDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8iIHsKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgICAgICB1c2VyIC0+IGNoYXRfc3lzdGVtLnVzZXJfc2VydmljZSAi0KHQvtC30LTQsNGC0Ywg0L3QvtCy0L7Qs9C+INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyAoUE9TVCAvdXNlcnMpIgogICAgICAgICAgICBjaGF0X3N5c3RlbS51c2VyX3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0ucG9zdGdyZXNfZGF0YWJhc2UgItCh0L7RhdGA0LDQvdC40YLRjCDQtNCw0L3QvdGL0LUg0L4g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C1IgogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBjaGF0X3N5c3RlbSAiVUMwMiIgItCf0L7QuNGB0Log0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINC/0L4g0LvQvtCz0LjQvdGDIiB7CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgdXNlciAtPiBjaGF0X3N5c3RlbS51c2VyX3NlcnZpY2UgItCf0L7QuNGB0Log0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPIChHRVQgL3VzZXJzP2xvZ2luPXtsb2dpbn0pIgogICAgICAgICAgICBjaGF0X3N5c3RlbS51c2VyX3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0ucG9zdGdyZXNfZGF0YWJhc2UgItCf0L7QuNGB0Log0LIg0LHQsNC30LUg0LTQsNC90L3Ri9GFIgogICAgICAgICAgICBjaGF0X3N5c3RlbS5wb3N0Z3Jlc19kYXRhYmFzZSAtPiBjaGF0X3N5c3RlbS51c2VyX3NlcnZpY2UgItCS0LXRgNC90YPRgtGMINC00LDQvdC90YvQtSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8iCiAgICAgICAgfQoKICAgICAgICBkeW5hbWljIGNoYXRfc3lzdGVtICJVQzAzIiAi0J/QvtC40YHQuiDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8g0L/QviDQvNCw0YHQutC1INC40LzRjyDQuCDRhNCw0LzQuNC70LjQuCIgewogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIHVzZXIgLT4gY2hhdF9zeXN0ZW0udXNlcl9zZXJ2aWNlICLQn9C+0LjRgdC6INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyAoR0VUIC91c2Vycz9uYW1lPXtuYW1lfSZzdXJuYW1lPXtzdXJuYW1lfSkiCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLnVzZXJfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5wb3N0Z3Jlc19kYXRhYmFzZSAi0J/QvtC40YHQuiDQsiDQsdCw0LfQtSDQtNCw0L3QvdGL0YUiCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLnBvc3RncmVzX2RhdGFiYXNlIC0+IGNoYXRfc3lzdGVtLnVzZXJfc2VydmljZSAi0JLQtdGA0L3Rg9GC0Ywg0LTQsNC90L3Ri9C1INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyIKICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgY2hhdF9zeXN0ZW0gIlVDMDQiICLQodC+0LfQtNCw0L3QuNC1INCz0YDRg9C/0L/QvtCy0L7Qs9C+INGH0LDRgtCwIiB7CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgdXNlciAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCh0L7Qt9C00LDRgtGMINCz0YDRg9C/0L/QvtCy0L7QuSDRh9Cw0YIgKFBPU1QgL2dyb3VwX2NoYXRzKSIKICAgICAgICAgICAgY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlIC0+IGNoYXRfc3lzdGVtLnVzZXJfc2VydmljZSAi0J/RgNC+0LLQtdGA0LjRgtGMINCw0LLRgtC+0YDQuNC30LDRhtC40Y4g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPIgogICAgICAgICAgICBjaGF0X3N5c3RlbS51c2VyX3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlICLQn9C+0LTRgtCy0LXRgNC00LjRgtGMINCw0LLRgtC+0YDQuNC30LDRhtC40Y4iCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5wb3N0Z3Jlc19kYXRhYmFzZSAi0KHQvtGF0YDQsNC90LjRgtGMINC00LDQvdC90YvQtSDQs9GA0YPQv9C/0L7QstC+0LPQviDRh9Cw0YLQsCIKICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgY2hhdF9zeXN0ZW0gIlVDMDUiICLQlNC+0LHQsNCy0LvQtdC90LjQtSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8g0LIg0YfQsNGCIiB7CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgdXNlciAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCU0L7QsdCw0LLQuNGC0Ywg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINCyINGH0LDRgiAoUE9TVCAvZ3JvdXBfY2hhdHMve2NoYXRfaWR9L3VzZXJzKSIKICAgICAgICAgICAgY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlIC0+IGNoYXRfc3lzdGVtLnVzZXJfc2VydmljZSAi0J/RgNC+0LLQtdGA0LjRgtGMINCw0LLRgtC+0YDQuNC30LDRhtC40Y4g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPIgogICAgICAgICAgICBjaGF0X3N5c3RlbS51c2VyX3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlICLQn9C+0LTRgtCy0LXRgNC00LjRgtGMINCw0LLRgtC+0YDQuNC30LDRhtC40Y4iCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5wb3N0Z3Jlc19kYXRhYmFzZSAi0JTQvtCx0LDQstC40YLRjCDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8g0LIg0YfQsNGCIgogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBjaGF0X3N5c3RlbSAiVUMwNiIgItCU0L7QsdCw0LLQu9C10L3QuNC1INGB0L7QvtCx0YnQtdC90LjRjyDQsiDQs9GA0YPQv9C/0L7QstC+0Lkg0YfQsNGCIiB7CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgdXNlciAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCU0L7QsdCw0LLQuNGC0Ywg0YHQvtC+0LHRidC10L3QuNC1IChQT1NUIC9ncm91cF9jaGF0cy97Y2hhdF9pZH0vbWVzc2FnZXMpIgogICAgICAgICAgICBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0udXNlcl9zZXJ2aWNlICLQn9GA0L7QstC10YDQuNGC0Ywg0LDQstGC0L7RgNC40LfQsNGG0LjRjiDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8iCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLnVzZXJfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCf0L7QtNGC0LLQtdGA0LTQuNGC0Ywg0LDQstGC0L7RgNC40LfQsNGG0LjRjiIKICAgICAgICAgICAgY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlIC0+IGNoYXRfc3lzdGVtLnJlZGlzX2NhY2hlICLQodC+0YXRgNCw0L3QuNGC0Ywg0L/QvtGB0LvQtdC00L3QtdC1INGB0L7QvtCx0YnQtdC90LjQtSDQsiDQutGN0YgiCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5tb25nb19kYXRhYmFzZSAi0KHQvtGF0YDQsNC90LjRgtGMINGB0L7QvtCx0YnQtdC90LjQtSDQsiDQuNGB0YLQvtGA0LjQuCIKICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgY2hhdF9zeXN0ZW0gIlVDMDciICLQl9Cw0LPRgNGD0LfQutCwINGB0L7QvtCx0YnQtdC90LjQuSDQs9GA0YPQv9C/0L7QstC+0LPQviDRh9Cw0YLQsCIgewogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIHVzZXIgLT4gY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlICLQl9Cw0LPRgNGD0LfQuNGC0Ywg0YHQvtC+0LHRidC10L3QuNGPIChHRVQgL2dyb3VwX2NoYXRzL3tjaGF0X2lkfS9tZXNzYWdlcykiCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAtPiBjaGF0X3N5c3RlbS51c2VyX3NlcnZpY2UgItCf0YDQvtCy0LXRgNC40YLRjCDQsNCy0YLQvtGA0LjQt9Cw0YbQuNGOINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyIKICAgICAgICAgICAgY2hhdF9zeXN0ZW0udXNlcl9zZXJ2aWNlIC0+IGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAi0J/QvtC00YLQstC10YDQtNC40YLRjCDQsNCy0YLQvtGA0LjQt9Cw0YbQuNGOIgogICAgICAgICAgICBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0ucmVkaXNfY2FjaGUgItCf0YDQvtCy0LXRgNC40YLRjCDQvdCw0LvQuNGH0LjQtSDQv9C+0YHQu9C10LTQvdC40YUg0YHQvtC+0LHRidC10L3QuNC5INCyINC60Y3RiNC1IgogICAgICAgICAgICBjaGF0X3N5c3RlbS5yZWRpc19jYWNoZSAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCS0LXRgNC90YPRgtGMINC/0L7RgdC70LXQtNC90LjQtSDRgdC+0L7QsdGJ0LXQvdC40Y8gKNC10YHQu9C4INC10YHRgtGMKSIKICAgICAgICAgICAgY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlIC0+IGNoYXRfc3lzdGVtLm1vbmdvX2RhdGFiYXNlICLQn9C+0LvRg9GH0LjRgtGMINC40YHRgtC+0YDQuNGOINGB0L7QvtCx0YnQtdC90LjQuSAo0LXRgdC70Lgg0L3QtdGCINCyINC60Y3RiNC1KSIKICAgICAgICAgICAgY2hhdF9zeXN0ZW0ubW9uZ29fZGF0YWJhc2UgLT4gY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlICLQktC10YDQvdGD0YLRjCDQv9C+0YHQu9C10LTQvdC40LUg0YHQvtC+0LHRidC10L3QuNGPIgogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBjaGF0X3N5c3RlbSAiVUMwOCIgItCe0YLQv9GA0LDQstC60LAgUHRQINGB0L7QvtCx0YnQtdC90LjRjyDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y4iIHsKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgICAgICB1c2VyIC0+IGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAi0J7RgtC/0YDQsNCy0LjRgtGMIFB0UCDRgdC+0L7QsdGJ0LXQvdC40LUgKFBPU1QgL3B0cC97dXNlcl9pZH0vbWVzc2FnZXMpIgogICAgICAgICAgICBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0udXNlcl9zZXJ2aWNlICLQn9GA0L7QstC10YDQuNGC0Ywg0LDQstGC0L7RgNC40LfQsNGG0LjRjiDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8iCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLnVzZXJfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCf0L7QtNGC0LLQtdGA0LTQuNGC0Ywg0LDQstGC0L7RgNC40LfQsNGG0LjRjiIKICAgICAgICAgICAgY2hhdF9zeXN0ZW0uY2hhdF9zZXJ2aWNlIC0+IGNoYXRfc3lzdGVtLnJlZGlzX2NhY2hlICLQodC+0YXRgNCw0L3QuNGC0Ywg0L/QvtGB0LvQtdC00L3QtdC1IFB0UCDRgdC+0L7QsdGJ0LXQvdC40LUg0LIg0LrRjdGIIgogICAgICAgICAgICBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgLT4gY2hhdF9zeXN0ZW0ubW9uZ29fZGF0YWJhc2UgItCh0L7RhdGA0LDQvdC40YLRjCBQdFAg0YHQvtC+0LHRidC10L3QuNC1INCyINC40YHRgtC+0YDQuNC4IgogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBjaGF0X3N5c3RlbSAiVUMwOSIgItCf0L7Qu9GD0YfQtdC90LjQtSBQdFAg0YHQv9C40YHQutCwINGB0L7QvtCx0YnQtdC90LjQuSDQtNC70Y8g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPIiB7CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgdXNlciAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCf0L7Qu9GD0YfQuNGC0Ywg0YHQv9C40YHQvtC6IFB0UCDRgdC+0L7QsdGJ0LXQvdC40LkgKEdFVCAvcHRwL3t1c2VyX2lkfS9tZXNzYWdlcykiCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5yZWRpc19jYWNoZSAi0J/RgNC+0LLQtdGA0LjRgtGMINC90LDQu9C40YfQuNC1INC/0L7RgdC70LXQtNC90LjRhSBQdFAg0YHQvtC+0LHRidC10L3QuNC5INCyINC60Y3RiNC1IgogICAgICAgICAgICBjaGF0X3N5c3RlbS5yZWRpc19jYWNoZSAtPiBjaGF0X3N5c3RlbS5jaGF0X3NlcnZpY2UgItCS0LXRgNC90YPRgtGMINC/0L7RgdC70LXQtNC90LjQtSBQdFAg0YHQvtC+0LHRidC10L3QuNGPICjQtdGB0LvQuCDQtdGB0YLRjCkiCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAtPiBjaGF0X3N5c3RlbS5tb25nb19kYXRhYmFzZSAi0JfQsNC/0YDQvtGB0LjRgtGMINC40YHRgtC+0YDQuNGOIFB0UCDRgdC+0L7QsdGJ0LXQvdC40LkgKNC10YHQu9C4INC90LXRgiDQsiDQutGN0YjQtSkiCiAgICAgICAgICAgIGNoYXRfc3lzdGVtLm1vbmdvX2RhdGFiYXNlIC0+IGNoYXRfc3lzdGVtLmNoYXRfc2VydmljZSAi0JLQtdGA0L3Rg9GC0Ywg0YHQv9C40YHQvtC6INGB0L7QvtCx0YnQtdC90LjQuSIKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgImRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "Пользователь",
+      "description" : "Пользователь системы чатов",
+      "relationships" : [ {
+        "id" : "10",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "fa5a416c-e8c5-4580-9cdd-d78350c904b3"
+        },
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Создание и управление чатами, отправка сообщений"
+      }, {
+        "id" : "8",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "f5cae44f-1f1f-430a-9671-539883840507"
+        },
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Регистрация и авторизация"
+      }, {
+        "id" : "9",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Регистрация и авторизация",
+        "linkedRelationshipId" : "8"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "chat_system"
+      },
+      "name" : "Система чатов",
+      "description" : "Система для обмена сообщениями и управления чатами",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "chat_system.user_service"
+        },
+        "name" : "User Service",
+        "description" : "Сервис для авторизации и управления пользователями",
+        "relationships" : [ {
+          "id" : "13",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0d4ff44f-6b20-4849-b527-784e467309a0"
+          },
+          "sourceId" : "3",
+          "destinationId" : "4",
+          "description" : "Передача данных о пользователе после авторизации"
+        }, {
+          "id" : "12",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e7f5f90f-0d75-45b5-9878-a5c750bd432c"
+          },
+          "sourceId" : "3",
+          "destinationId" : "6",
+          "description" : "CRUD операции с пользователями, поиск"
+        } ],
+        "technology" : "REST API",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "chat_system.mongo_database"
+        },
+        "name" : "MongoDB Database",
+        "description" : "База данных MongoDB с историей сообщений",
+        "group" : "Слой данных",
+        "technology" : "MongoDB",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,cache",
+        "properties" : {
+          "structurizr.dsl.identifier" : "chat_system.redis_cache"
+        },
+        "name" : "Redis Cache",
+        "description" : "Кеш Redis для ускорения поиска пользователей",
+        "group" : "Слой данных",
+        "technology" : "Redis",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "chat_system.postgres_database"
+        },
+        "name" : "PostgreSQL Database",
+        "description" : "База данных PostgreSQL с пользователями и чатами",
+        "group" : "Слой данных",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "chat_system.chat_service"
+        },
+        "name" : "Chat Service",
+        "description" : "Сервис для работы с PtP и групповыми чатами",
+        "relationships" : [ {
+          "id" : "11",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "a3842f64-b7a0-47b2-babb-670bdb7ca7c9"
+          },
+          "sourceId" : "4",
+          "destinationId" : "5",
+          "description" : "Получение последних сообщений"
+        }, {
+          "id" : "16",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e68a2fdc-3711-461a-ac5b-2bc685b7d3c4"
+          },
+          "sourceId" : "4",
+          "destinationId" : "3",
+          "description" : "Проверка авторизации пользователя при добавлении в чат и отправке сообщений"
+        }, {
+          "id" : "14",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "81d52ae5-fa58-4216-81e3-d4abc9521fc8"
+          },
+          "sourceId" : "4",
+          "destinationId" : "6",
+          "description" : "CRUD операции с чатами"
+        }, {
+          "id" : "15",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "8db6b473-21ce-4f94-a66d-f8b696170f56"
+          },
+          "sourceId" : "4",
+          "destinationId" : "7",
+          "description" : "CRUD истории сообщений"
+        } ],
+        "technology" : "REST API",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "17",
+      "tags" : "Element,Deployment Node",
+      "properties" : {
+        "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.78b0a402-e613-420c-abda-8a6dc98923f1",
+        "cpu" : "4",
+        "hdd" : "4Tb",
+        "ram" : "256Gb"
+      },
+      "name" : "Chat Server",
+      "environment" : "Production",
+      "instances" : "1",
+      "containerInstances" : [ {
+        "id" : "19",
+        "tags" : "Container Instance",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.78b0a402-e613-420c-abda-8a6dc98923f1.54f5e405-111b-4e0b-9f22-631a6ea95b86"
+        },
+        "relationships" : [ {
+          "id" : "32",
+          "sourceId" : "19",
+          "destinationId" : "31",
+          "description" : "CRUD истории сообщений",
+          "linkedRelationshipId" : "15"
+        }, {
+          "id" : "29",
+          "sourceId" : "19",
+          "destinationId" : "28",
+          "description" : "Получение последних сообщений",
+          "linkedRelationshipId" : "11"
+        }, {
+          "id" : "20",
+          "sourceId" : "19",
+          "destinationId" : "18",
+          "description" : "Проверка авторизации пользователя при добавлении в чат и отправке сообщений",
+          "linkedRelationshipId" : "16"
+        }, {
+          "id" : "26",
+          "sourceId" : "19",
+          "destinationId" : "24",
+          "description" : "CRUD операции с чатами",
+          "linkedRelationshipId" : "14"
+        } ],
+        "environment" : "Production",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "containerId" : "4"
+      }, {
+        "id" : "18",
+        "tags" : "Container Instance",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.78b0a402-e613-420c-abda-8a6dc98923f1.f1253a46-404d-4762-b8d9-d4531270952c"
+        },
+        "relationships" : [ {
+          "id" : "21",
+          "sourceId" : "18",
+          "destinationId" : "19",
+          "description" : "Передача данных о пользователе после авторизации",
+          "linkedRelationshipId" : "13"
+        }, {
+          "id" : "25",
+          "sourceId" : "18",
+          "destinationId" : "24",
+          "description" : "CRUD операции с пользователями, поиск",
+          "linkedRelationshipId" : "12"
+        } ],
+        "environment" : "Production",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "containerId" : "3"
+      } ]
+    }, {
+      "id" : "22",
+      "tags" : "Element,Deployment Node",
+      "properties" : {
+        "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.c6746cfa-54e5-4f65-b12a-1cf3f5cdbef1"
+      },
+      "name" : "databases",
+      "environment" : "Production",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "27",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.c6746cfa-54e5-4f65-b12a-1cf3f5cdbef1.79658b13-046e-44b8-b104-ee3bfe497f18",
+          "cpu" : "2",
+          "hdd" : "2Tb",
+          "ram" : "128Gb"
+        },
+        "name" : "Cache Server",
+        "environment" : "Production",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "28",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.c6746cfa-54e5-4f65-b12a-1cf3f5cdbef1.79658b13-046e-44b8-b104-ee3bfe497f18.03747e7d-5386-4a06-b472-6336b7191d81"
+          },
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "5"
+        } ]
+      }, {
+        "id" : "30",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.c6746cfa-54e5-4f65-b12a-1cf3f5cdbef1.aee9e16d-7e85-44d1-81e7-7ea1e3fb060d",
+          "cpu" : "4",
+          "hdd" : "4Tb",
+          "ram" : "256Gb"
+        },
+        "name" : "DocumentDB Server",
+        "environment" : "Production",
+        "instances" : "4",
+        "containerInstances" : [ {
+          "id" : "31",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.c6746cfa-54e5-4f65-b12a-1cf3f5cdbef1.aee9e16d-7e85-44d1-81e7-7ea1e3fb060d.e1b42a0d-fafe-403f-9a72-c7557f6b79ba"
+          },
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "7"
+        } ]
+      }, {
+        "id" : "23",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.c6746cfa-54e5-4f65-b12a-1cf3f5cdbef1.3db2f04b-6091-4f1a-bce7-b5499f77d882",
+          "cpu" : "4",
+          "hdd" : "4Tb",
+          "ram" : "256Gb"
+        },
+        "name" : "Database Server 1",
+        "environment" : "Production",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "24",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "2ef405ef-03e3-4c5f-a6f1-71a30edfcab0.c6746cfa-54e5-4f65-b12a-1cf3f5cdbef1.3db2f04b-6091-4f1a-bce7-b5499f77d882.71617b4d-c5d4-4875-a238-d88ed11b57e4"
+          },
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "6"
+        } ]
+      } ]
+    } ],
+    "properties" : {
+      "structurizr.groupSeparator" : "/"
+    }
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape-001",
+      "generatedKey" : true,
+      "order" : 1,
+      "dimensions" : {
+        "width" : 850,
+        "height" : 1400
+      },
+      "automaticLayout" : {
+        "implementation" : "Dagre",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 600,
+        "edgeSeparation" : 200,
+        "vertices" : false,
+        "applied" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 225,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 200,
+        "y" : 900
+      } ],
+      "relationships" : [ {
+        "id" : "9"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "generatedKey" : true,
+      "order" : 2,
+      "softwareSystemId" : "2",
+      "dimensions" : {
+        "width" : 850,
+        "height" : 1400
+      },
+      "automaticLayout" : {
+        "implementation" : "Dagre",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 600,
+        "edgeSeparation" : 200,
+        "vertices" : false,
+        "applied" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 225,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 200,
+        "y" : 900
+      } ],
+      "relationships" : [ {
+        "id" : "9"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "generatedKey" : true,
+      "order" : 3,
+      "softwareSystemId" : "2",
+      "dimensions" : {
+        "width" : 3117,
+        "height" : 3065
+      },
+      "automaticLayout" : {
+        "implementation" : "Dagre",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 600,
+        "edgeSeparation" : 200,
+        "vertices" : false,
+        "applied" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1078,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 1702,
+        "y" : 1050
+      }, {
+        "id" : "4",
+        "x" : 740,
+        "y" : 1650
+      }, {
+        "id" : "5",
+        "x" : 240,
+        "y" : 2400
+      }, {
+        "id" : "6",
+        "x" : 1290,
+        "y" : 2400
+      }, {
+        "id" : "7",
+        "x" : 2427,
+        "y" : 2400
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "dynamicViews" : [ {
+      "key" : "UC08",
+      "order" : 12,
+      "description" : "Отправка PtP сообщения пользователю",
+      "dimensions" : {
+        "width" : 2410,
+        "height" : 2065
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "10",
+        "description" : "Отправить PtP сообщение (POST /ptp/{user_id}/messages)",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "16",
+        "description" : "Проверить авторизацию пользователя",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 505,
+          "y" : 1170
+        } ]
+      }, {
+        "id" : "13",
+        "description" : "Подтвердить авторизацию",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 759,
+          "y" : 1329
+        } ]
+      }, {
+        "id" : "11",
+        "description" : "Сохранить последнее PtP сообщение в кэш",
+        "order" : "4",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1570,
+          "y" : 1296
+        } ]
+      }, {
+        "id" : "15",
+        "description" : "Сохранить PtP сообщение в истории",
+        "order" : "5",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 595,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 220,
+        "y" : 1400
+      }, {
+        "id" : "4",
+        "x" : 595,
+        "y" : 800
+      }, {
+        "id" : "5",
+        "x" : 1720,
+        "y" : 1400
+      }, {
+        "id" : "7",
+        "x" : 970,
+        "y" : 1400
+      } ]
+    }, {
+      "key" : "UC04",
+      "order" : 8,
+      "description" : "Создание группового чата",
+      "dimensions" : {
+        "width" : 1660,
+        "height" : 2065
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "10",
+        "description" : "Создать групповой чат (POST /group_chats)",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "16",
+        "description" : "Проверить авторизацию пользователя",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 295,
+          "y" : 1250
+        } ]
+      }, {
+        "id" : "13",
+        "description" : "Подтвердить авторизацию",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 595,
+          "y" : 1250
+        } ]
+      }, {
+        "id" : "14",
+        "description" : "Сохранить данные группового чата",
+        "order" : "4",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 953,
+          "y" : 1296
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 220,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 220,
+        "y" : 1400
+      }, {
+        "id" : "4",
+        "x" : 220,
+        "y" : 800
+      }, {
+        "id" : "6",
+        "x" : 970,
+        "y" : 1400
+      } ]
+    }, {
+      "key" : "UC01",
+      "order" : 5,
+      "description" : "Создание нового пользователя",
+      "dimensions" : {
+        "width" : 930,
+        "height" : 2065
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "8",
+        "description" : "Создать нового пользователя (POST /users)",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "12",
+        "description" : "Сохранить данные о пользователе",
+        "order" : "2",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 240,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 240,
+        "y" : 800
+      }, {
+        "id" : "6",
+        "x" : 240,
+        "y" : 1400
+      } ]
+    }, {
+      "key" : "UC06",
+      "order" : 10,
+      "description" : "Добавление сообщения в групповой чат",
+      "dimensions" : {
+        "width" : 2410,
+        "height" : 2065
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "10",
+        "description" : "Добавить сообщение (POST /group_chats/{chat_id}/messages)",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "16",
+        "description" : "Проверить авторизацию пользователя",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 505,
+          "y" : 1170
+        } ]
+      }, {
+        "id" : "13",
+        "description" : "Подтвердить авторизацию",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 759,
+          "y" : 1329
+        } ]
+      }, {
+        "id" : "11",
+        "description" : "Сохранить последнее сообщение в кэш",
+        "order" : "4",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1570,
+          "y" : 1296
+        } ]
+      }, {
+        "id" : "15",
+        "description" : "Сохранить сообщение в истории",
+        "order" : "5",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 595,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 220,
+        "y" : 1400
+      }, {
+        "id" : "4",
+        "x" : 595,
+        "y" : 800
+      }, {
+        "id" : "5",
+        "x" : 1720,
+        "y" : 1400
+      }, {
+        "id" : "7",
+        "x" : 970,
+        "y" : 1400
+      } ]
+    }, {
+      "key" : "UC07",
+      "order" : 11,
+      "description" : "Загрузка сообщений группового чата",
+      "dimensions" : {
+        "width" : 2352,
+        "height" : 2031
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "10",
+        "description" : "Загрузить сообщения (GET /group_chats/{chat_id}/messages)",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "16",
+        "description" : "Проверить авторизацию пользователя",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1064,
+          "y" : 1289
+        } ]
+      }, {
+        "id" : "13",
+        "description" : "Подтвердить авторизацию",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1364,
+          "y" : 1289
+        } ]
+      }, {
+        "id" : "11",
+        "description" : "Проверить наличие последних сообщений в кэше",
+        "order" : "4",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1364,
+          "y" : 689
+        } ]
+      }, {
+        "id" : "11",
+        "description" : "Вернуть последние сообщения (если есть)",
+        "order" : "5",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 1064,
+          "y" : 689
+        } ]
+      }, {
+        "id" : "15",
+        "description" : "Получить историю сообщений (если нет в кэше)",
+        "order" : "6",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 932,
+          "y" : 571
+        } ]
+      }, {
+        "id" : "15",
+        "description" : "Вернуть последние сообщения",
+        "order" : "7",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 745,
+          "y" : 806
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1751,
+        "y" : 239
+      }, {
+        "id" : "3",
+        "x" : 989,
+        "y" : 1439
+      }, {
+        "id" : "4",
+        "x" : 989,
+        "y" : 839
+      }, {
+        "id" : "5",
+        "x" : 989,
+        "y" : 239
+      }, {
+        "id" : "7",
+        "x" : 239,
+        "y" : 239
+      } ]
+    }, {
+      "key" : "UC05",
+      "order" : 9,
+      "description" : "Добавление пользователя в чат",
+      "dimensions" : {
+        "width" : 1660,
+        "height" : 2065
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "10",
+        "description" : "Добавить пользователя в чат (POST /group_chats/{chat_id}/users)",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "16",
+        "description" : "Проверить авторизацию пользователя",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 295,
+          "y" : 1250
+        } ]
+      }, {
+        "id" : "13",
+        "description" : "Подтвердить авторизацию",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 595,
+          "y" : 1250
+        } ]
+      }, {
+        "id" : "14",
+        "description" : "Добавить пользователя в чат",
+        "order" : "4",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 953,
+          "y" : 1296
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 220,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 220,
+        "y" : 1400
+      }, {
+        "id" : "4",
+        "x" : 220,
+        "y" : 800
+      }, {
+        "id" : "6",
+        "x" : 970,
+        "y" : 1400
+      } ]
+    }, {
+      "key" : "UC03",
+      "order" : 7,
+      "description" : "Поиск пользователя по маске имя и фамилии",
+      "dimensions" : {
+        "width" : 1602,
+        "height" : 1431
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "8",
+        "description" : "Поиск пользователя (GET /users?name={name}&surname={surname})",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "12",
+        "description" : "Поиск в базе данных",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 639,
+          "y" : 676
+        } ]
+      }, {
+        "id" : "12",
+        "description" : "Вернуть данные пользователя",
+        "order" : "3",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 340,
+          "y" : 701
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1002,
+        "y" : 239
+      }, {
+        "id" : "3",
+        "x" : 290,
+        "y" : 839
+      }, {
+        "id" : "6",
+        "x" : 240,
+        "y" : 239
+      } ]
+    }, {
+      "key" : "UC09",
+      "order" : 13,
+      "description" : "Получение PtP списка сообщений для пользователя",
+      "dimensions" : {
+        "width" : 2352,
+        "height" : 1431
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "10",
+        "description" : "Получить список PtP сообщений (GET /ptp/{user_id}/messages)",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "11",
+        "description" : "Проверить наличие последних PtP сообщений в кэше",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1364,
+          "y" : 689
+        } ]
+      }, {
+        "id" : "11",
+        "description" : "Вернуть последние PtP сообщения (если есть)",
+        "order" : "3",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 1064,
+          "y" : 689
+        } ]
+      }, {
+        "id" : "15",
+        "description" : "Запросить историю PtP сообщений (если нет в кэше)",
+        "order" : "4",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 932,
+          "y" : 571
+        } ]
+      }, {
+        "id" : "15",
+        "description" : "Вернуть список сообщений",
+        "order" : "5",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 745,
+          "y" : 806
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1751,
+        "y" : 239
+      }, {
+        "id" : "4",
+        "x" : 989,
+        "y" : 839
+      }, {
+        "id" : "5",
+        "x" : 989,
+        "y" : 239
+      }, {
+        "id" : "7",
+        "x" : 239,
+        "y" : 239
+      } ]
+    }, {
+      "key" : "UC02",
+      "order" : 6,
+      "description" : "Поиск пользователя по логину",
+      "dimensions" : {
+        "width" : 1602,
+        "height" : 1431
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "elementId" : "2",
+      "externalBoundariesVisible" : false,
+      "relationships" : [ {
+        "id" : "8",
+        "description" : "Поиск пользователя (GET /users?login={login})",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "12",
+        "description" : "Поиск в базе данных",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 639,
+          "y" : 676
+        } ]
+      }, {
+        "id" : "12",
+        "description" : "Вернуть данные пользователя",
+        "order" : "3",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 340,
+          "y" : 701
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1002,
+        "y" : 239
+      }, {
+        "id" : "3",
+        "x" : 290,
+        "y" : 839
+      }, {
+        "id" : "6",
+        "x" : 240,
+        "y" : 239
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "Deployment-001",
+      "generatedKey" : true,
+      "order" : 4,
+      "softwareSystemId" : "2",
+      "dimensions" : {
+        "width" : 3830,
+        "height" : 2552
+      },
+      "automaticLayout" : {
+        "implementation" : "Dagre",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 600,
+        "edgeSeparation" : 200,
+        "vertices" : false,
+        "applied" : false
+      },
+      "environment" : "Production",
+      "elements" : [ {
+        "id" : "22",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "23",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "24",
+        "x" : 239,
+        "y" : 1869
+      }, {
+        "id" : "27",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "28",
+        "x" : 1689,
+        "y" : 1869
+      }, {
+        "id" : "18",
+        "x" : 976,
+        "y" : 219
+      }, {
+        "id" : "19",
+        "x" : 1689,
+        "y" : 819
+      }, {
+        "id" : "30",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "31",
+        "x" : 3139,
+        "y" : 1869
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "20"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "database",
+          "shape" : "Cylinder"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Deployment-001",
+      "properties" : {
+        "structurizr.tooltips" : "true"
+      }
+    }
+  }
+}
