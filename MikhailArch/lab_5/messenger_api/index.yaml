@@ -1,0 +1,228 @@
+openapi: 3.1.0
+info:
+  title: FastAPI
+  version: 0.1.0
+paths:
+  /api/chat/{chat_id}:
+    get:
+      tags:
+      - Chats
+      summary: Read Chat
+      operationId: read_chat_api_chat__chat_id__get
+      parameters:
+      - name: chat_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Chat Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/chat/{chat_id}/name:
+    put:
+      tags:
+      - Chats
+      summary: Change Chat Name
+      operationId: change_chat_name_api_chat__chat_id__name_put
+      parameters:
+      - name: chat_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Chat Id
+      - name: name
+        in: query
+        required: true
+        schema:
+          type: string
+          title: Name
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/chat/{chat_id}/message:
+    post:
+      tags:
+      - Chats
+      summary: Add Message
+      operationId: add_message_api_chat__chat_id__message_post
+      parameters:
+      - name: chat_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Chat Id
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Message'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/chat/{chat_id}/member:
+    post:
+      tags:
+      - Chats
+      summary: Add Member
+      operationId: add_member_api_chat__chat_id__member_post
+      parameters:
+      - name: chat_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Chat Id
+      - name: member
+        in: query
+        required: true
+        schema:
+          type: integer
+          title: Member
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/chat:
+    post:
+      tags:
+      - Chats
+      summary: Create Chat
+      operationId: create_chat_api_chat_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatModel'
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+components:
+  schemas:
+    ChatModel:
+      properties:
+        admins:
+          items:
+            type: integer
+          type: array
+          title: Admins
+        members:
+          items:
+            type: integer
+          type: array
+          title: Members
+        chat_name:
+          type: string
+          title: Chat Name
+        messages:
+          items:
+            type: object
+          type: array
+          title: Messages
+        is_PtP:
+          type: boolean
+          title: Is Ptp
+      type: object
+      required:
+      - admins
+      - members
+      - chat_name
+      - messages
+      - is_PtP
+      title: ChatModel
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    Message:
+      properties:
+        message_text:
+          type: string
+          title: Message Text
+        send_date:
+          type: string
+          format: date-time
+          title: Send Date
+        member:
+          type: integer
+          title: Member
+      type: object
+      required:
+      - message_text
+      - send_date
+      - member
+      title: Message
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError
